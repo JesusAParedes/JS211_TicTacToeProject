@@ -100,6 +100,13 @@ const resetBoard = () => {
   }
   
   // @TODO, Your code here: make sure to reset the array of arrays to empty for a new game
+
+  board = [
+    ['','',''],
+    ['','',''],
+    ['','','']
+  ];
+  
 }
 
 // **BONUSES**
